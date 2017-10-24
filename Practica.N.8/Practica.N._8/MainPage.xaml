@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Practica.N._8"
+             x:Class="Practica.N._8.MainPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aquamarine">
+            <Label Text="Tecnologico De Estudios Superiores De Huixquilucan" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"/>
+
+            <Label Text="Lorena Garcia Hernandez" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+            <Label Text="13090351" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+            <Button Text="Ingresar" Clicked="Button_Ingresar" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
